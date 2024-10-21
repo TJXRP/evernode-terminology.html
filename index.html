@@ -4,10 +4,339 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evernode Terminology</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .accordion {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .accordion-item {
+            border-bottom: 1px solid #ddd;
+        }
+
+.accordion-title {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: flex-start; /* Aligns everything to the left */
+    align-items: center;
+    position: relative;
+}
+
+.mini-summary {
+    font-size: 1.0rem;
+    font-style: italic;
+    color: #bbb;
+    margin-left: auto; /* Moves mini summary to the right of the title */
+    padding-left: 25px; /* Adds 25px of space between the title and mini-summary */
+}
+
+
+        .accordion-title:hover {
+            background-color: #374151;
+        }
+
+        .accordion-title::after {
+            content: '     \002B'; /* plus symbol */
+            font-size: 1.2rem;
+    margin-left: 10px; /* Adds space between the text and the + symbol */
+
+        }
+
+        .accordion-title.active::after {
+            content: '\2212'; /* minus symbol */
+        }
+
+        .accordion-content {
+            display: none;
+            padding: 20px;
+            background-color: #fafafa;
+            color: #333;
+            font-size: 1rem;
+        }
+
+        .accordion-content p {
+            margin: 0;
+        }
+
+        .accordion-content p span {
+            font-weight: bold;
+            color: #1f2937;
+        }
+    </style>
 </head>
 <body>
-    <h1>Evernode Terminology</h1>
-    <p>This is the Evernode Terminology page.</p>
-    <a href="evernode-terminology.html">Click here to view the terminology</a>
+
+    <div class="container">
+        <h1>Evernode Terminology</h1>
+<H7>
+ <a href="https://evernode.forum" target="_blank" style="text-decoration: none; color: #0056b3; font-size: 12px;">
+ Evernode.Forum
+    </a> | 
+<a href="https://discord.gg/evernode-community-953758352280813618" target="_blank" style="text-decoration: none; color: #0056b3; font-size: 12px;">
+ Discord
+    </a> | 
+<a href="https://t.me/EvernodeCommunity/1" target="_blank" style="text-decoration: none; color: #0056b3; font-size: 12px;">
+ Telegram
+    </a></H7>
+
+
+
+        <div class="accordion">
+
+            <div class="accordion-item">
+                <div class="accordion-title">Autopilot<span class="mini-summary">automates processes</span></div>
+                <div class="accordion-content">
+                    <p><span>Autopilot:</span> A system on Evernode that automates certain processes, reducing the need for manual intervention in network operations.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Codius<span class="mini-summary">hosts smart contracts</span></div>
+                <div class="accordion-content">
+                    <p><span>Codius:</span> An earlier project similar to Evernode that aimed to host smart contracts.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">DApp<span class="mini-summary">decentralized app</span></div>
+                <div class="accordion-content">
+                    <p><span>DApp:</span> A decentralized app that runs on a blockchain network without a central server. DApps can be built on various blockchains (like Ethereum or Evernode).</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Decentralization<span class="mini-summary">distributed control</span></div>
+                <div class="accordion-content">
+                    <p><span>Decentralization:</span> No one controls the entire network. Many computers (nodes) share the work.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">DeFi<span class="mini-summary">financial services on blockchain</span></div>
+                <div class="accordion-content">
+                    <p><span>DeFi:</span> Financial services like lending and trading built on Evernode, without traditional banks.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">DePIN<span class="mini-summary">physical infrastructure network</span></div>
+                <div class="accordion-content">
+                    <p><span>DePIN:</span> Decentralized Physical Infrastructure Network—enabling services like DeFi and other decentralized apps to interact with real-world assets.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Edge Computing<span class="mini-summary">distributed nodes for performance</span></div>
+                <div class="accordion-content">
+                    <p><span>Edge Computing:</span> Using many Evernode nodes spread out to make apps faster and more reliable.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">EVR<span class="mini-summary">Evernode's token</span></div>
+                <div class="accordion-content">
+                    <p><span>EVR:</span> Evernode's token used to pay for services and hosting on the network.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Evernode 1.0<span class="mini-summary">full version release</span></div>
+                <div class="accordion-content">
+                    <p><span>Evernode 1.0:</span> The first full version of Evernode that’s ready for real-world use.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">EVM Compatibility<span class="mini-summary">runs Ethereum contracts</span></div>
+                <div class="accordion-content">
+                    <p><span>EVM Compatibility:</span> Evernode supports the Ethereum Virtual Machine, allowing developers to use Ethereum-based smart contracts seamlessly.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Halving<span class="mini-summary">reduces mining rewards</span></div>
+                <div class="accordion-content">
+                    <p><span>Halving:</span> A scheduled event where the reward for mining or validating transactions is cut in half, reducing new token supply (common in networks like Bitcoin).</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Hosting<span class="mini-summary">hosting apps</span></div>
+                <div class="accordion-content">
+                    <p><span>Hosting:</span> Running apps or websites on Evernode’s decentralized network.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Hooks<span class="mini-summary">triggers for actions</span></div>
+                <div class="accordion-content">
+                    <p><span>Hooks:</span> Small bits of code that automatically trigger actions like running smart contracts.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Hot Pocket<span class="mini-summary">runs app instances</span></div>
+                <div class="accordion-content">
+                    <p><span>Hot Pocket:</span> A slot in an Evernode node with support for Docker deployments, WebSocket, TCP, and UDP connections. It ensures apps run efficiently in a secure environment.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Hot Pocket Cluster<span class="mini-summary">group of hot pockets</span></div>
+                <div class="accordion-content">
+                    <p><span>Hot Pocket Cluster:</span> A group of two or more Hot Pockets working together, with an optional consensus engine that executes actions based on agreed-upon inputs.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Instance<span class="mini-summary">separate app environment</span></div>
+                <div class="accordion-content">
+                    <p><span>Instance:</span> A separate environment where Evernode apps run.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Interoperability<span class="mini-summary">works with other chains</span></div>
+                <div class="accordion-content">
+                    <p><span>Interoperability:</span> Evernode can talk and work with other blockchains easily.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Nodes<span class="mini-summary">computers running Evernode</span></div>
+                <div class="accordion-content">
+                    <p><span>Nodes:</span> Computers that help run Evernode by hosting apps and keeping the network running.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Multichain<span class="mini-summary">support for multiple blockchains</span></div>
+                <div class="accordion-content">
+                    <p><span>Multichain:</span> Evernode’s ability to support apps across multiple blockchain networks.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Scalability<span class="mini-summary">handles increasing work</span></div>
+                <div class="accordion-content">
+                    <p><span>Scalability:</span> Evernode can handle increasing amounts of work efficiently as more nodes are added to the network.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Sashimono<span class="mini-summary">manages nodes</span></div>
+                <div class="accordion-content">
+                    <p><span>Sashimono:</span> The system that manages Evernode nodes and launches Hot Pockets/instances, enabling smooth operation of decentralized services.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Service<span class="mini-summary">useful offerings</span></div>
+                <div class="accordion-content">
+                    <p><span>Service:</span> Something useful offered on Evernode, like file storage or hosting apps.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Smart Contracts<span class="mini-summary">self-executing agreements</span></div>
+                <div class="accordion-content">
+                    <p><span>Smart Contracts:</span> Programs that automatically execute agreements when certain conditions are met.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Trustline<span class="mini-summary">connection between accounts</span></div>
+                <div class="accordion-content">
+                    <p><span>Trustline:</span> A connection between two accounts on the XRP Ledger that allows them to hold and transact in tokens other than XRP.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Tenant Fee<span class="mini-summary">fee for services</span></div>
+                <div class="accordion-content">
+                    <p><span>Tenant Fee:</span> The fee required to execute services or smart contracts on Evernode, paid in EVR.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Web Socket<span class="mini-summary">real-time communication</span></div>
+                <div class="accordion-content">
+                    <p><span>Web Socket:</span> A communication protocol Evernode uses to allow apps to communicate with servers in real-time.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">xApp<span class="mini-summary">app for Xaman Wallet</span></div>
+                <div class="accordion-content">
+                    <p><span>xApp:</span> An app built specifically for the Xaman Wallet. While it communicates with the Xahau and XRP Ledger (XRPL), it can utilize Evernode.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">Xahau Network<span class="mini-summary">Evernode's blockchain</span></div>
+                <div class="accordion-content">
+                    <p><span>Xahau Network:</span> The blockchain Evernode uses for its EVR token and value transfers. Evernode is a stand-alone network!</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">XWCode IDE<span class="mini-summary">cloud IDE for smart contracts</span></div>
+                <div class="accordion-content">
+                    <p><span>XWCode IDE:</span> A cloud-based Integrated Development Environment (IDE) for writing and deploying smart contracts in any coding language on Evernode.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        const accordionItems = document.querySelectorAll('.accordion-item');
+
+        accordionItems.forEach(item => {
+            const title = item.querySelector('.accordion-title');
+            title.addEventListener('click', () => {
+                title.classList.toggle('active');
+                const content = item.querySelector('.accordion-content');
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        });
+    </script>
+
 </body>
 </html>
