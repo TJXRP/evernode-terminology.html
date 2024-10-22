@@ -571,20 +571,6 @@ h2 {
             });
         });
     </script>
-    <p>Version: <span id="version"></span></p>
-
-   <h1>Evernode Terminology</h1>
-    <p>Version: <span id="version">Loading...</span></p>
-
-    <script>
-        fetch('.git/refs/heads/main')
-        .then(response => response.text())
-        .then(hash => {
-            document.getElementById('version').textContent = "v" + hash.substring(0, 7);  // Show short hash
-        })
-        .catch(error => {
-            console.error('Error fetching version:', error);
-        });
-    </script>
+   
 </body>
 </html>
