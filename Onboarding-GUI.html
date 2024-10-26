@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evernode QuickStart</title>
+    <style>
+        /* Reset & Fonts */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .title {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #76d7c4;
+        }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .button-group button {
+            padding: 15px;
+            background: #76d7c4;
+            color: #1f1f1f;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .button-group button:hover {
+            background: #58bfa7;
+        }
+
+        .description {
+            font-size: 0.9rem;
+            color: #a9a9a9;
+            margin-top: 0.3rem;
+        }
+
+        .status-log {
+            background: #1f1f1f;
+            color: #76d7c4;
+            margin-top: 2rem;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            max-height: 150px;
+            overflow-y: auto;
+            border: 1px solid #3c3c3c;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .footer button {
+            padding: 10px 20px;
+            background: #3c3c3c;
+            color: #f1f1f1;
+            font-size: 0.9rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .footer button:hover {
+            background: #76d7c4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Evernode QuickStart</h1>
+
+        <div class="button-group">
+            <div>
+                <button>Create New Wallet</button>
+                <p class="description">Instantly generate your Evernode wallet.</p>
+            </div>
+            <div>
+                <button>Send XRP</button>
+                <p class="description">Fund your wallet with XRP to get started.</p>
+            </div>
+            <div>
+                <button>Add EVR Trustline</button>
+                <p class="description">Securely add the EVR token trustline to your wallet.</p>
+            </div>
+            <div>
+                <button>Convert XRP to EVR</button>
+                <p class="description">Swap XRP for EVR tokens with one click.</p>
+            </div>
+            <div>
+                <button>Activate Xahau Wallet</button>
+                <p class="description">Set up your Xahau wallet to expand functionality.</p>
+            </div>
+            <div>
+                <button>Bridge EVR to Xahau</button>
+                <p class="description">Seamlessly bridge EVR to Xahau for dApp deployment.</p>
+            </div>
+            <div>
+                <button>Launch WordPress Site</button>
+                <p class="description">Deploy a WordPress site instantly on Evernode.</p>
+            </div>
+        </div>
+
+        <div class="status-log">
+            <p>Status Log:</p>
+            <p>Real-time status updates will appear here.</p>
+        </div>
+
+        <div class="footer">
+            <button>View on GitHub</button>
+            <button>Get Help</button>
+        </div>
+    </div>
+</body>
+</html>
